@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ContextoApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+            NotiListView()
+            }
         }
     }
 }
